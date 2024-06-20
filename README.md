@@ -22,46 +22,29 @@ Vue.js, Swiper, The Movie Database(TMDB) api를 사용하여 만든 영화사이
 [검색] -
 ![img](search.png)
 
-## 설치 방법
-
-1. 저장소를 클론합니다:
-
-   ```bash
-   git clone https://github.com/your-username/mvKing-vue.git
-   ```
-
-2. 프로젝트 디렉토리로 이동합니다:
-
-   ```bash
-   cd mvKing-vue
-   ```
-
-3. 필요한 종속성을 설치합니다:
-
-   ```bash
-   npm install
-   ```
-
-4. 프로젝트 루트 디렉토리에 `.env` 파일을 생성하고, TMDb API 키를 추가합니다:
-
-   ```plaintext
-   VITE_TMDB_API_KEY=your_tmdb_api_key
-   ```
-
 ## 사용 방법
 
-1. 개발 서버를 시작합니다:
+1. 서버를 실행합니다:
 
    ```bash
    npm run dev
    ```
 
-2. 브라우저에서 `http://localhost:3000`을 엽니다.
-
 ## 빌드 방법
 
-프로덕션용으로 프로젝트를 빌드하려면:
+1. firebase에 로그인합니다.
 
-```bash
-npm run build
-```
+   ```
+   firebase login
+   ```
+
+2. 파일들을 빌드합니다.
+
+   ```
+   npm run build
+   ```
+
+3. 파일을 배포합니다.
+   ```
+   firebase deploy
+   ```
