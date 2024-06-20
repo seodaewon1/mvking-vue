@@ -7,7 +7,12 @@
         </div>
 
         <div class="search">
-          <input v-model="query" type="search" placeholder="" @keyup.enter="navigateToSearch" />
+          <input
+            v-model="query"
+            type="search"
+            placeholder="Search for Keywords"
+            @keyup.enter="navigateToSearch"
+          />
           <button @click="navigateToSearch">Search</button>
         </div>
       </div>
@@ -35,6 +40,10 @@ export default {
 </script>
 
 <style lang="scss">
+input:focus {
+  outline: none; /* 포커스시 아웃라인 제거 */
+  border: none; /* 포커스시 보더 제거 */
+}
 .header__inner {
   padding: 20px;
   display: flex;
@@ -72,7 +81,6 @@ export default {
       background: linear-gradient(to right, #ff0000, #a00000);
       padding: 10px;
       width: 400px;
-      border-radius: 10px;
       text-align: left;
       color: #fff;
       border: 1px solid #575757;
@@ -88,7 +96,6 @@ export default {
       color: #fff;
       background-color: #43404e;
       border: none;
-      border-radius: 10px;
       cursor: pointer;
       transition: background-color 0.3s;
 

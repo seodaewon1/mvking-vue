@@ -71,6 +71,7 @@ onMounted(fetchMovies)
       <Swiper
         :slides-per-view="1"
         :space-between="10"
+        :loop="true"
         :autoplay="{ delay: 4000, disableOnInteraction: false }"
         :pagination="{ clickable: true }"
         :navigation="true"
@@ -102,6 +103,7 @@ onMounted(fetchMovies)
         <Swiper
           :slides-per-view="6"
           :space-between="20"
+          :loop="true"
           :autoplay="{ delay: 4000, disableOnInteraction: false }"
           :modules="[Navigation, Pagination, Autoplay]"
           :navigation="true"
@@ -129,6 +131,7 @@ onMounted(fetchMovies)
         <Swiper
           :slides-per-view="6"
           :space-between="20"
+          :loop="true"
           :autoplay="{ delay: 4000, disableOnInteraction: false }"
           :modules="[Navigation, Pagination, Autoplay]"
           :navigation="true"
@@ -155,6 +158,7 @@ onMounted(fetchMovies)
         <Swiper
           :slides-per-view="6"
           :space-between="20"
+          :loop="true"
           :autoplay="{ delay: 4000, disableOnInteraction: false }"
           :modules="[Navigation, Pagination, Autoplay]"
           :navigation="true"
@@ -182,6 +186,7 @@ onMounted(fetchMovies)
         <Swiper
           :slides-per-view="6"
           :space-between="20"
+          :loop="true"
           :autoplay="{ delay: 4000, disableOnInteraction: false }"
           :modules="[Navigation, Pagination, Autoplay]"
           :navigation="true"
@@ -214,6 +219,7 @@ onMounted(fetchMovies)
   width: 100%;
   margin-bottom: 50px;
   position: relative;
+  height: calc(100vh - 100px);
 }
 
 .banner .swiper {

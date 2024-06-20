@@ -2,6 +2,8 @@
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
 import { useRoute } from 'vue-router'
+import HeaderSection from '@/components/HeaderSection.vue'
+import FooterSection from '@/components/FooterSection.vue'
 
 const route = useRoute()
 const movieID = ref(null)
@@ -100,6 +102,7 @@ const fetchMovieDetails = async () => {
         ></iframe>
       </div>
     </div>
+    <FooterSection />
   </div>
 </template>
 

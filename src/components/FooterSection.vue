@@ -1,6 +1,6 @@
 <template>
   <footer id="footer" role="contentinfo">
-    <div class="footer__inner container">
+    <div class="footer__inner">
       <!-- Copyright Notice -->
       <div class="footer__copyright">
         <p>
