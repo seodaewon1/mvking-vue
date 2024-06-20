@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: 'theJamsil';
+  font-weight: 100;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Thin.eot');
+  src:
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Thin.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Thin.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Thin.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Thin.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'theJamsil';
+  font-weight: 300;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Light.eot');
+  src:
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Light.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Light.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Light.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'theJamsil';
+  font-weight: 400;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Regular.eot');
+  src:
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Regular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Regular.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'theJamsil';
+  font-weight: 500;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Medium.eot');
+  src:
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Medium.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Medium.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Medium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'theJamsil';
+  font-weight: 700;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Bold.eot');
+  src:
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Bold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Bold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'theJamsil';
+  font-weight: 800;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-ExtraBold.eot');
+  src:
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-ExtraBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-ExtraBold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-ExtraBold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-ExtraBold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'eduAll';
+  font-weight: 300;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/websfont/eduAll/eduAll-Light.eot');
+  src:
+    url('https://cdn.jsdelivr.net/gh/websfont/eduAll/eduAll-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/websfont/eduAll/eduAll-Light.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/websfont/eduAll/eduAll-Light.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/websfont/eduAll/eduAll-Light.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'eduAll';
+  font-weight: 700;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/websfont/eduAll/eduAll-Bold.eot');
+  src:
+    url('https://cdn.jsdelivr.net/gh/websfont/eduAll/eduAll-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/websfont/eduAll/eduAll-Bold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/websfont/eduAll/eduAll-Bold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/websfont/eduAll/eduAll-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NanumSquareNeoLight';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot);
+  src:
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff)
+      format('woff'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareNeo';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot);
+  src:
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff)
+      format('woff'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareNeoBold';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot);
+  src:
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff)
+      format('woff'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareNeoExtraBold';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot);
+  src:
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff)
+      format('woff'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareNeoHeavy';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot);
+  src:
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff)
+      format('woff'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.ttf)
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareNeoVariable';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot);
+  src:
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot?#iefix)
+      format('embedded-opentype'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.woff)
+      format('woff'),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.ttf)
+      format('truetype');
+}
