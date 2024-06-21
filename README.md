@@ -10,16 +10,16 @@ Vue.js, Swiper, The Movie Database(TMDB) api를 사용하여 만든 영화사이
 
 ## 디자인
 
-[메인] -
+### 메인
 ![img](/src/assets/img/main1.png)  
 ![img](/src/assets/img/main2.png)  
 ![img](/src/assets/img/main3.png)
 
-[상세정보] -
+### 상세정보
 ![img](/src/assets/img/info.png)  
 ![img](/src/assets/img/info1.png)
 
-[검색] -
+### 검색
 ![img](/src/assets/img/search.png)
 
 ## 사용 방법
